@@ -19,7 +19,6 @@ export default function Home({ filteredCoins }) {
   return (
     <Layout>
       <div className='coin_app'>
-      <h1>Hello Word J3</h1>
         <SearchBar type='text' placeholder='Search' onChange={handleChange} />
         <CoinList className='list-coins' filteredCoins={allCoins} />
 
